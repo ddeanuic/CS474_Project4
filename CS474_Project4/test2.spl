@@ -1,0 +1,30 @@
+a NEWID
+b NEWID
+listWithHeadA NEWID
+one NEWID
+minusOne NEWID
+alwaysFalse NEWID
+count NEWID
+a 100 ASSIGN
+a listWithHeadA COMBINE
+b 0 ASSIGN
+one 1 ASSIGN
+minusOne -1 ASSIGN
+count 501 ASSIGN
+a 28 IF
+alwaysFalse 20 IF
+count minusOne ADD
+count 21 IF
+b one ADD
+a minusOne ADD
+a 28 IF
+alwaysFalse 15 IF
+listWithHeadA a HEAD
+b 0 ASSIGN
+alwaysFalse 27 IF
+b minusOne ADD
+a one ADD
+a 28 IF
+alwaysFalse 24 IF
+listWithHeadA a HEAD
+HLT

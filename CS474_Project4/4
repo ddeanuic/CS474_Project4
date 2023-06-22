@@ -1,0 +1,24 @@
+a NEWID
+a 1 ASSIGN
+b NEWID
+b 1 ASSIGN
+n NEWID
+n 8 ASSIGN
+alwaysTrue NEWID
+alwaysTrue 0 ASSIGN
+minusOne NEWID
+minusOne 1 ASSIGN
+minusOne CHS
+list NEWID
+list2 NEWID
+a list COMBINE
+b list COMBINE
+n 23 IF
+list a HEAD
+a b ADD
+a list COMBINE
+list list2 TAIL
+list2 b HEAD
+n minusOne ADD
+alwaysTrue 15 IF
+HLT

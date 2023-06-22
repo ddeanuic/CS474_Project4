@@ -1,0 +1,16 @@
+op1 NEWID
+op2 NEWID
+result NEWID
+minusOne NEWID
+alwaysTrue NEWID
+op1 5 ASSIGN
+op2 4 ASSIGN
+minusOne 1 ASSIGN
+result 0 ASSIGN
+alwaysTrue 0 ASSIGN
+minusOne CHS
+op2 15 IF
+result op1 ADD
+op2 minusOne ADD
+alwaysTrue 11 IF
+HLT
